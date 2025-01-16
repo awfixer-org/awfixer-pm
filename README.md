@@ -13,11 +13,11 @@
 <!-- PROJECT LOGO -->
 <br />
 <div align="center">
-  <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
+  <a href="https://github.com/awfixer-org/awfixer-pm">
+    <img src="images/AWFixer.png" alt="Logo" width="80" height="80">
   </a>
 
-  <h3 align="center">Best-README-Template</h3>
+  <h3 align="center">AWFixer Package Manager</h3>
 
   <p align="center">
     An awesome README template to jumpstart your projects!
@@ -70,8 +70,6 @@
 <!-- img -->
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 <!-- img -->
-
-# AWFixer Package Manager 
 
 >[!WARNING]
 > **This package manager is in development, it is not done yet and may not be complete for a while, you can check out the [Development](#Development) and [Contributing](#Contributing) sections for details on how to help or join us on [Discord](https://discord.gg/awfixer) to talk about what we are doing**

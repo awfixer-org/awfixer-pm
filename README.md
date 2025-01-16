@@ -74,7 +74,7 @@
 # AWFixer Package Manager 
 
 >[!WARNING]
-> ** This package manager is in development, it is not done yet and may not be complete for a while, you can check out the [Development](#Development) and [Contributing](#Contributing) sections for details on how to help or join us on [Discord](https://discord.gg/awfixer) to talk about what we are doing
+> **This package manager is in development, it is not done yet and may not be complete for a while, you can check out the [Development](#Development) and [Contributing](#Contributing) sections for details on how to help or join us on [Discord](https://discord.gg/awfixer) to talk about what we are doing**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>

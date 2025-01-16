@@ -67,12 +67,12 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-<!-- img -->
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
-<!-- img -->
-
 >[!WARNING]
 > **This package manager is in development, it is not done yet and may not be complete for a while, you can check out the [Development](#Development) and [Contributing](#Contributing) sections for details on how to help or join us on [Discord](https://discord.gg/awfixer) to talk about what we are doing**
+
+#### This product has a bit of a missleading name, being a package manager means one of two things, it means what you think, and it means what it is. Let's break that down so that we can figure out what the purpose of AWFixerPM is.
+
+
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -151,15 +151,27 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [x] Add Changelog
-- [x] Add back to top links
-- [ ] Add Additional Templates w/ Examples
-- [ ] Add "components" document to easily copy & paste sections of the readme
-- [ ] Multi-language Support
+- [x] Finish README
+- [x] Add file structure
+- [ ] Add list of supported package managers
+- [ ] Ensure cross platform support
+    - [ ] MacOS
+    - [ ] Windows
+- [ ] finsh Documentation
+- [ ] Work on TUI
+- [ ] Work on GUI
     - [ ] Chinese
     - [ ] Spanish
 
 See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+<!-- DEVELOPMENT -->
+## Development
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -192,7 +204,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the Unlicense License. See `LICENSE.txt` for more information.
+Distributed under the Unlicense License. See `LICENSE.md` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 

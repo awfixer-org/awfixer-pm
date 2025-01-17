@@ -1,0 +1,2 @@
+- [ ] Finish the README.md
+- [ ] Finish the file layout

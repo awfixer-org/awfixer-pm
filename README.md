@@ -1,6 +1,9 @@
 <a id="readme-top"></a>
 
 
+>[!warning]
+> **This project is currently a brain child of myself, austin. It was an idea born out of my situation. I have no money and this idea might be worth some. If you want to help you can sponser me https://github.com/sponsers/awfixer and I will keep working on this idea.**
+> *Now that my wikipedia style sob story is out of the way, lets get into the readme of the project AWFixerPM*
 
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
@@ -14,7 +17,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/awfixer-org/awfixer-pm">
-    <img src="images/AWFixer.png" alt="Logo" width="80" height="80">
+    <img src="https://github.com/AWFixer.png" alt="Logo" width="80" height="80">
   </a>
 
   <h3 align="center">AWFixer Package Manager</h3>
@@ -22,10 +25,10 @@
   <p align="center">
     An awesome README template to jumpstart your projects!
     <br />
-    <a href="https://github.com/othneildrew/Best-README-Template"><strong>Explore the docs »</strong></a>
+    <a href="https://docs.awfixer.dev"><strong>Explore the docs »</strong></a>
     <br />
     <br />
-    <a href="https://github.com/awfixer-org/awfixer-pm">View Demo</a>
+    <a href="https://demo.awfixer.dev/pm">View Demo</a>
     &middot;
     <a href="https://github.com/awfixer-org/awfixer-pm/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     &middot;
@@ -72,6 +75,9 @@
 
 #### This product has a bit of a missleading name, being a package manager means one of two things, it means what you think, and it means what it is. Let's break that down so that we can figure out what the purpose of AWFixerPM is.
 
+> _What is a package manager?_ 
+
+A package manager is kinda a literal thing, to be honest with you. It manages packages. Issue is that your traditional package manager is kinda racist. It will only manage a specific kind of package, one that is predeterined to be the superiour kind of package. Debian's apt will only manage .deb packages. Fedora's DNF will only manage .rpm packages. And so on. That is also true for pipx cargo pnpm, and so on. This is where AWFixerPM will be different. It will be a system wide package manager, with the power to utilize other packaging formats as needed to keep your system up and running.
 
 
 
@@ -81,16 +87,9 @@
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
-
-* [![Next][Next.js]][Next-url]
-* [![React][React.js]][React-url]
-* [![Vue][Vue.js]][Vue-url]
-* [![Angular][Angular.io]][Angular-url]
-* [![Svelte][Svelte.dev]][Svelte-url]
-* [![Laravel][Laravel.com]][Laravel-url]
-* [![Bootstrap][Bootstrap.com]][Bootstrap-url]
-* [![JQuery][JQuery.com]][JQuery-url]
+* [Nix](https://nixos.org)
+* [Hydra](https://nixos.wiki)
+* [Python](https://python.org)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -104,34 +103,13 @@ To get a local copy up and running follow these simple example steps.
 
 ### Prerequisites
 
-This is an example of how to list things you need to use the software and how to install them.
-* npm
-  ```sh
-  npm install npm@latest -g
-  ```
+A working operating system, preferribly a fresh install
 
 ### Installation
 
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Get a free API Key at [https://example.com](https://example.com)
-2. Clone the repo
-   ```sh
-   git clone https://github.com/github_username/repo_name.git
-   ```
-3. Install NPM packages
-   ```sh
-   npm install
-   ```
-4. Enter your API in `config.js`
-   ```js
-   const API_KEY = 'ENTER YOUR API';
-   ```
-5. Change git remote url to avoid accidental pushes to base project
-   ```sh
-   git remote set-url origin github_username/repo_name
-   git remote -v # confirm the changes
-   ```
+```bash
+  curl -fssl get.awfixer.dev/pm | bash
+  ```
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -140,9 +118,11 @@ _Below is an example of how you can instruct your audience on installing and set
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+AWFixerPM will be kind of like a PM for your PM, but with super powers. Because of what we established about package managers [above](#about-the-proect) We know that there s a base function to a package manager, and all of the rest is just glit and glam. We also know that when it comes to packages there are three forms, Distro, bianary, and language. This package manager serves to be a point that connects all three, and maybe add a flavor of our own. Using the Nix language we are able to accomplish this.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+
+
+_For more examples, please refer to the [Documentation](https://docs.awfixer.dev)_
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -152,18 +132,17 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [x] Finish README
-- [x] Add file structure
+- [ ] Add file structure
 - [ ] Add list of supported package managers
 - [ ] Ensure cross platform support
+    - [x] Linux
     - [ ] MacOS
     - [ ] Windows
-- [ ] finsh Documentation
+- [ ] Finsh Documentation
 - [ ] Work on TUI
 - [ ] Work on GUI
-    - [ ] Chinese
-    - [ ] Spanish
 
-See the [open issues](https://github.com/othneildrew/Best-README-Template/issues) for a full list of proposed features (and known issues).
+See the [open issues](https://github.com/awfixer-org/awfixer-pm/issues) for a full list of proposed features (and known issues).
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,8 +172,8 @@ Don't forget to give the project a star! Thanks again!
 
 ### Top contributors:
 
-<a href="https://github.com/othneildrew/Best-README-Template/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=othneildrew/Best-README-Template" alt="contrib.rocks image" />
+<a href="https://github.com/awfixer-org/awfixer-pm/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=awfixer-org/awfixer-org" alt="contrib.rocks image" />
 </a>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -213,7 +192,9 @@ Distributed under the Unlicense License. See `LICENSE.md` for more information.
 <!-- CONTACT -->
 ## Contact
 
-Your Name - [@awfixer](https://twitter.com/awfixer) - [awfixer@pm.me](mailto:awfixer@pm.me)
+austin - [@awfixer](https://twitter.com/awfixer) - [awfixer@pm.me](mailto:awfixer@pm.me)
+
+Cpmmunity - [Discord](https://discord.gg/awfixer)
 
 Project Link: [https://github.com/awfixer-org/awfixer-pm](https://github.com/awfixer-org/awfixer-pm)
 
@@ -226,14 +207,12 @@ Project Link: [https://github.com/awfixer-org/awfixer-pm](https://github.com/awf
 
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
+* [AWFixer Licenses](https://licenses.awfixer.dev)
+* [Flyio][https://fly.io]
+* [My Cpmmunity](https://discord.gg/awfixer)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)
 * [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -252,20 +231,6 @@ Use this space to list resources you find helpful and would like to give credit 
 [license-shield]: https://img.shields.io/github/license/awfixer-org/awfixer-pm.svg?style=for-the-badge
 [license-url]: https://github.com/awfixer-org/awfixer-pm/blob/master/LICENSE.md
 [product-screenshot]: images/screenshot.png
-[Next.js]: https://img.shields.io/badge/next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white
-[Next-url]: https://nextjs.org/
-[React.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
-[React-url]: https://reactjs.org/
-[Vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
-[Vue-url]: https://vuejs.org/
-[Angular.io]: https://img.shields.io/badge/Angular-DD0031?style=for-the-badge&logo=angular&logoColor=white
-[Angular-url]: https://angular.io/
-[Svelte.dev]: https://img.shields.io/badge/Svelte-4A4A55?style=for-the-badge&logo=svelte&logoColor=FF3E00
-[Svelte-url]: https://svelte.dev/
-[Laravel.com]: https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white
-[Laravel-url]: https://laravel.com
-[Bootstrap.com]: https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white
-[Bootstrap-url]: https://getbootstrap.com
-[JQuery.com]: https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white
-[JQuery-url]: https://jquery.com 
+
+<!-- not done yet  -->
 [Nixos.com]: https://img.shields.io/badge/Nixos

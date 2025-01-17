@@ -208,7 +208,7 @@ Project Link: [https://github.com/awfixer-org/awfixer-pm](https://github.com/awf
 Use this space to list resources you find helpful and would like to give credit to. I've included a few of my favorites to kick things off!
 
 * [AWFixer Licenses](https://licenses.awfixer.dev)
-* [Flyio][https://fly.io]
+* [Flyio](https://fly.io)
 * [My Cpmmunity](https://discord.gg/awfixer)
 * [Img Shields](https://shields.io)
 * [GitHub Pages](https://pages.github.com)

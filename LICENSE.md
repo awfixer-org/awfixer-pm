@@ -2,7 +2,7 @@
 
 Abbreviation:
 
-****ASL-1.0-LGPLv3****
+\***\*ASL-1.0-LGPLv3\*\***
 
 ## Notice
 
